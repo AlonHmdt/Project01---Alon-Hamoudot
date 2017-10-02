@@ -1,0 +1,145 @@
+
+
+body{
+font-family: 'Baloo Bhaijaan', cursive;
+    
+
+}
+
+
+textarea {
+        outline-width: 0;
+} 
+
+#title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+#MyList {
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+#InputText {
+    width: 420px;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 80px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    
+}
+
+
+
+#txtDiv {
+    background: url(imgs/sticky_note.png);
+    width: 415px;
+    height: 242px;
+    position: relative;
+    margin: auto;
+}
+
+.filed{
+    border-radius: 5px;
+    padding: 5px 0px 5px 10px;
+}
+
+
+.filedwidth {
+    width: 400px;
+    margin-bottom: 20px;
+
+}
+
+
+.ItemDesigan {
+    height: 250px;
+    width: 200px;
+    margin: 5px 0px 0px 10px;
+    background: url(imgs/sticky_item.png);
+    display: inline-block;
+    position: relative;
+    animation: example 2s;
+
+}
+
+@keyframes example {
+    0%   {opacity:0;}
+    100% {opacity: 1;}
+}
+
+
+.ItemDesiganaAter {
+    height: 250px;
+    width: 200px;
+    margin: 5px 0px 0px 10px;
+    background: url(imgs/sticky_item.png);
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.NoteDesign{
+    margin-top: 25px;
+    padding: 0px 30px 0px 10px;
+    font-size: 14px;
+    height: 180px;
+    overflow: auto;
+    /* word-break: break-all; */
+
+}
+
+.DateDesign {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
+    color:royalblue;
+}
+
+.clearicon{
+    font-size: 20px;
+    color: red;
+    cursor:pointer;
+    position: absolute;
+    top: 222px;
+    left: 8px;
+    display: none;
+
+}   
+
+
+.ItemDesiganaAter:hover .clearicon{
+    display: initial;
+}
+.ItemDesigan:hover .clearicon{
+     display: initial;
+}
+
+#error{
+    display:none;
+    background-color:#ff4d4d;
+    color: white;
+    width: 80%;
+    position: relative;
+    margin: auto auto;
+}
+
+#errorDate{
+    display:none;
+    background-color:#ff4d4d;
+    color: white;
+    width: 80%;
+    position: relative;
+    margin: auto auto;
+}
+

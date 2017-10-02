@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My To-Do</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+    
+
+
+</head>
+<body background="imgs/bg.jpg">
+    <div id=title>
+        <h1>MY To-Do Lists</h1>
+    </div>
+
+    <div class="text-center">
+        <div id="txtDiv">
+            <textarea rows="8" cols="20" placeholder="What you NEED To-Do?" id="InputText"></textarea>
+            <p id="error">Can't pin empty note</p>
+        </div>
+        <input class="filedwidth filed" type="text" id="date" placeholder="Date (DD/MM/YYYY)"><br>
+        <input class="filedwidth filed" type="time" id="time"><br>
+        <button class="btn btn-success filedwidth" onclick="stick()">Stick It</button>
+    </div>
+
+
+    <div id="MyList">
+    </div>
+    <script src="js/myJavaScript.js"></script>
+    <script src="js/objectModel.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
